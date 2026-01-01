@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Jost } from 'next/font/google';
 import "./globals.css";;
+import { LanguageContextProvider } from "@/context/LanguageContext";
 
 export const metadata: Metadata = {
   title: "Yuri Cruz - Portfolio",
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jost.variable}`}>
-        {children}
+        <LanguageContextProvider>
+          {children}
+        </LanguageContextProvider>
       </body>
     </html>
   );
