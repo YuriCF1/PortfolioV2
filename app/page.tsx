@@ -6,8 +6,8 @@ export default function Home() {
     <>
       <Header />
       <LanguageButton />
-      <main>
-        <h1>Teste</h1>
+            <main className="pt-24">
+        <h5>Teste</h5>
       </main>
     </>
   );

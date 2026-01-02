@@ -1,9 +1,10 @@
 /* Wrapper */
 .wrapper {
   position: fixed;
-  top: 16px;
-  right: 16px;
+  top: 25px;
+  right: 15px;
   z-index: 1000;
+  scale: 0.85;
 }
 
 /* Button */
