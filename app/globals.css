@@ -1,21 +1,23 @@
 @import "tailwindcss";
 
-/*Default Mode Light */
+/* ===== Light Mode (default) ===== */
 :root {
-  --background: #FDFDFD;
+  --background: #fdfdfd;
   --foreground: #000000;
-  --light-color: #0A0A0A;
+  --light-color: #0a0a0a;
 }
 
-/*Default Mode Dark - Reset configs */
-@media (prefers-color-scheme: light) {
+
+/* ===== Dark Mode ===== */
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
-    --light-color: #000000;
+    --foreground: #fdfdfd;
+    --light-color: #ffffff;
   }
-}
+} */
 
+/* Tailwind theme variables */
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -24,12 +26,11 @@
 
 body {
   margin: 0;
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-jost);
 }
 
 h5 {
   font-size: 2cm;
-  height: 100cm;
 }

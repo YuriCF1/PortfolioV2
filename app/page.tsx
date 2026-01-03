@@ -1,13 +1,12 @@
-import Header from "@/components/header";
-import { LanguageButton } from "@/components/languageToggle";
+import Header from "@/components/Header";
+import About from "@/components/About";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <LanguageButton />
-            <main className="pt-24">
-        <h5>Teste</h5>
+      <main className="pt-20 sm:pt-24 md:pt-28">
+        <About />
       </main>
     </>
   );
