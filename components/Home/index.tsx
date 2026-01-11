@@ -1,9 +1,11 @@
-// import styles from './about.module.css'
+"use client";
 
 import { HiArrowRight } from "react-icons/hi";
+import { useTranslation } from "react-i18next";
 
 
 const Home = () => {
+    const { t } = useTranslation();
     return (
         <div className="px-10 lg:px-35 flex flex-col gap-4 sm:gap-6">
             <h1 className="
@@ -25,16 +27,14 @@ const Home = () => {
                     Full Stack Developer
                 </span>
             </h1>
-            <div className="h-0.5 sm:h-1 w-32 sm:w-44 md:w-55 lg:w-100 bg-gray-400 rounded-full" />
-            <p className="text-sm sm:text-base md:text-lg max-w-xl md:max-w-2xl leading-relaxed text-gray-700">
-                Hello, I&apos;m Yuri Cruz, and I’ve always been passionate about creating things.
-                Combining this with technology is what led me to become a Full Stack Developer.
-                Building products for all types of users and providing good experiences is what I enjoy the most.
+            <div className="h-0.5 w-32 sm:h-1  sm:w-44 md:w-55 lg:w-100 bg-gray-400 rounded-full" />
+            <p className="min-h-[80px] sm:min-h-[100px] text-sm sm:text-base md:text-lg max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[65%] leading-relaxed text-gray-700">
+                {t("nav.about")}
             </p>
             <div className="mt-6 flex gap-4">
                 <div className="group flex px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-colors">
                     <a href="#projects" className="flex items-center gap-1">
-                        My Projects
+                        {t("nav.my_projects")}
                         <HiArrowRight
                             className="
           text-xl text-white
@@ -53,7 +53,7 @@ const Home = () => {
       flex items-center gap-1
     "
                 >
-                    Get In Touch
+                    {t("nav.get_in_touch")}
                     <HiArrowRight
                         className="
         text-xl text-gray-400

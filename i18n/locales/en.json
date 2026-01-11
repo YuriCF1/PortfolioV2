@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "title": "Portfolio",
+    "about": "Hello, I'm Yuri Cruz, and I've always been passionate about creating things. Combining this with technology is what led me to become a Full Stack Developer. Building products for all types of users and providing good experiences is what I enjoy the most.",
+    "my_projects": "My Projects",
+    "get_in_touch": "Get in touch"
+  }
+}

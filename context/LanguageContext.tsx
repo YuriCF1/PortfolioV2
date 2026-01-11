@@ -1,6 +1,8 @@
 "use client"
 
 import { createContext, useState } from "react";
+import i18n from "@/i18n";
+import { useEffect } from "react";
 
 interface LanguageContextType {
   language: string;
@@ -16,6 +18,10 @@ export function LanguageContextProvider({ children }: { children: React.ReactNod
   const [language, setLanguage] = useState('english');
   const languageToggle = () =>
     setLanguage((prev) => (prev === 'english' ? 'portuguese' : 'english'));
+
+  useEffect(() => {
+    i18n.changeLanguage(language === "english" ? "en" : "pt");
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{ language, languageToggle }}>

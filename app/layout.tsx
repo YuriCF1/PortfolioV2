@@ -3,6 +3,8 @@ import { Jost } from 'next/font/google';
 import "./globals.css";;
 import { LanguageContextProvider } from "@/context/LanguageContext";
 
+// import "@/i18n"; 
+
 export const metadata: Metadata = {
   title: "Yuri Cruz - Portfolio",
   description: "Full Stack Developer Portfolio showcasing my work and skills in web development, React, Node.js, and modern web technologies.",
