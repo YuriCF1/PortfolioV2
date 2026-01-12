@@ -1,4 +1,4 @@
 To DO
 
-- [ ] Implement i18next
-- [ ] Add dark mode toggle
+- [X] Implement i18next
+- [X] Add dark mode toggle

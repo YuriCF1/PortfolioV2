@@ -3,12 +3,12 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LanguageButton } from "@/components/LanguageToggle";
+import ToggleLightDarkMode from "@/components/ToggleLightDarkMode";
 
 const Header = () => {
-  const { t } = useTranslation(); // Get translation function
+  const { t } = useTranslation();
   const [open, setOpen] = useState(false);
 
-  // List of translation keys
   const navItems = [
     "nav.home",
     "nav.skills",
@@ -17,12 +17,20 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-sm border-b border-gray-200">
+    <header className="
+  fixed top-0 w-full z-50
+  backdrop-blur-sm
+  border-b border-[rgb(var(--foreground)/.1)]
+">
+
       <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center">
         {/* Title */}
-        <h1 className="text-xl sm:text-2xl font-medium">
-          {t("nav.title")}
-        </h1>
+        <div className="flex items-center">
+          <h1 className="text-xl sm:text-4xl font-medium">
+            {t("nav.title")}
+          </h1>
+          <ToggleLightDarkMode />
+        </div>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-4 ml-auto md:gap-6 lg:gap-10 xl:gap-14">
@@ -30,7 +38,10 @@ const Header = () => {
             {navItems.map((key) => (
               <li
                 key={key}
-                className="cursor-pointer px-3 py-2 rounded-xl hover:bg-gray-200 transition"
+                className="
+                  cursor-pointer px-3 py-2 rounded-xl transition
+                  hover:bg-gray-200 dark:hover:bg-gray-800
+                "
               >
                 {t(key)}
               </li>
@@ -45,7 +56,10 @@ const Header = () => {
 
           <button
             onClick={() => setOpen((prev) => !prev)}
-            className="p-2 rounded-lg hover:bg-gray-200"
+            className="
+              p-2 rounded-lg transition
+              hover:bg-gray-200 dark:hover:bg-gray-800
+            "
             aria-label="Toggle menu"
           >
             ☰
@@ -54,12 +68,19 @@ const Header = () => {
       </div>
 
       {open && (
-        <ul className="md:hidden px-4 pb-4 flex flex-col gap-2 bg-white/90 backdrop-blur-sm">
+        <ul className="
+          md:hidden px-4 pb-4 flex flex-col gap-2
+          bg-white/90 dark:bg-gray-900/90
+          backdrop-blur-sm
+        ">
           {navItems.map((key) => (
             <li
               key={key}
               onClick={() => setOpen(false)}
-              className="cursor-pointer px-3 py-2 rounded-xl hover:bg-gray-200 transition"
+              className="
+                cursor-pointer px-3 py-2 rounded-xl transition
+                hover:bg-gray-200 dark:hover:bg-gray-800
+              "
             >
               {t(key)}
             </li>

@@ -1,36 +1,36 @@
 @import "tailwindcss";
-
-/* ===== Light Mode (default) ===== */
+@custom-variant dark (&:where(.dark, .dark *));
+/* Light */
 :root {
-  --background: #fdfdfd;
-  --foreground: #000000;
-  --light-color: #0a0a0a;
+  /* --background: 253, 250, 246; */
+  --background: 253, 250, 246;
+  --foreground: 0 0 0;
 }
 
-
-/* ===== Dark Mode ===== */
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #fdfdfd;
-    --light-color: #ffffff;
-  }
-} */
-
-/* Tailwind theme variables */
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-light-color: var(--light-color);
+/* Dark via class */
+.dark {
+  --background: 17 24 39;
+  --foreground: 255 255 255;
 }
 
 body {
-  margin: 0;
-  background-color: var(--background);
-  color: var(--foreground);
+  background: linear-gradient(
+    135deg,
+    rgb(206, 230, 231) 0%,
+    rgba(248, 250, 252, 1) 100%
+  );
+  color: rgb(var(--foreground));
   font-family: var(--font-jost);
+  transition: all 0.3s ease;
+  min-height: 100vh;
 }
 
-h5 {
-  font-size: 2cm;
+/* Dark mode gradient */
+.dark body {
+  background: linear-gradient(
+    135deg,
+    rgba(17, 24, 39, 1) 0%,
+    rgba(31, 41, 55, 1) 100%
+  );
 }
+
