@@ -8,5 +8,23 @@
     "about": "Olá, meu nome é Yuri Cruz e sempre fui apaixonado por criar coisas. Combinar essa paixão com a tecnologia me levou a me tornar um desenvolvedor Full Stack. O que mais me dá prazer é construir produtos para todos os tipos de usuários e proporcionar boas experiências.",
     "my_projects": "Meus Projetos",
     "get_in_touch": "Entre em contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description1": "Sou um desenvolvedor full stack apaixonado por criar soluções digitais que fazem a diferença. Com anos de experiência no mercado, trabalho com as tecnologias mais modernas para entregar produtos de alta qualidade.",
+    "description2": "Minha abordagem combina código limpo, design intuitivo e boas práticas de desenvolvimento para criar aplicações que não apenas funcionam, mas encantam os usuários.",
+    "description3": "Acredito que tecnologia deve ser acessível, performática e escalável.",
+    "values_title": "O que eu valorizo:",
+    "values": {
+      "clean_code": "Código limpo e bem documentado",
+      "performance": "Performance e otimização",
+      "ux": "Experiência do usuário"
+    },
+    "stats": {
+      "projects": "Projetos Concluídos",
+      "experience": "Anos de Experiência",
+      "clients": "Clientes Satisfeitos",
+      "technologies": "Tecnologias Dominadas"
+    }
   }
 }

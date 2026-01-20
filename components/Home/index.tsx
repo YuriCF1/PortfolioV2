@@ -2,13 +2,15 @@
 
 import { HiArrowRight } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Home = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="px-10 lg:px-35 flex flex-col gap-4 sm:gap-6">
-            <h1
+        <div className="testBackground px-10 py-24 lg:px-20 flex flex-col gap-4 sm:gap-6">   
+        <h1
                 className="
     inline-block
 
@@ -82,6 +84,95 @@ bg-[radial-gradient(circle_at_bottom_right,#00FFDE_40%,#166534_85%,#007A6C_100%)
             "
                     />
                 </a>
+            </div>
+            <div className="flex gap-4">
+                {/* LinkedIn */}
+                <a
+                    href="https://www.linkedin.com/in/yuricf/"
+                    target="_blank"
+                    className="
+      group flex h-12 w-12 items-center justify-center rounded-xl
+
+      /* LIGHT */
+      bg-black/5
+      hover:bg-black/10
+
+      /* DARK */
+      dark:bg-white/5
+      dark:hover:bg-white/10
+
+      border border-black/10 dark:border-white/10
+      transition
+    "
+                >
+                    <FaLinkedinIn
+                        className="
+        text-xl
+        text-[rgb(var(--foreground)/0.8)]
+        dark:text-white
+        group-hover:scale-110
+        transition
+      "
+                    />
+                </a>
+                {/* GitHub */}
+                <a
+                    href="https://github.com/YuriCF1"
+                    target="_blank"
+                    className="
+      group flex h-12 w-12 items-center justify-center rounded-xl
+
+      /* LIGHT */
+      bg-black/5
+      hover:bg-black/10
+
+      /* DARK */
+      dark:bg-white/5
+      dark:hover:bg-white/10
+
+      border border-black/10 dark:border-white/10
+      transition
+    "
+                >
+                    <FaGithub
+                        className="
+        text-xl
+        text-[rgb(var(--foreground)/0.8)]
+        dark:text-white
+        group-hover:scale-110
+        transition
+      "
+                    />
+                </a>
+                {/* Email */}
+                <a
+                    href="mailto:yurifdev@gmail.com"
+                    className="
+      group flex h-12 w-12 items-center justify-center rounded-xl
+
+      /* LIGHT */
+      bg-black/5
+      hover:bg-black/10
+
+      /* DARK */
+      dark:bg-white/5
+      dark:hover:bg-white/10
+
+      border border-black/10 dark:border-white/10
+      transition
+    "
+                >
+                    <HiOutlineMail
+                        className="
+        text-xl
+        text-[rgb(var(--foreground)/0.8)]
+        dark:text-white
+        group-hover:scale-110
+        transition
+      "
+                    />
+                </a>
+
             </div>
         </div>
     );

@@ -1,12 +1,14 @@
 import Header from "@/components/Header";
 import Home from "@/components/Home";
+import AboutMe from "@/components/About";
 
 export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="pt-20 sm:pt-24 md:pt-28 ">
+      <main>
         <Home />
+        <AboutMe />
       </main>
     </>
   );
