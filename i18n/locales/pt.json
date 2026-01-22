@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Início",
+    "about_header": "Sobre",
     "skills": "Habilidades",
     "projects": "Projetos",
     "contact": "Contato",
@@ -11,20 +12,20 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "description1": "Sou um desenvolvedor full stack apaixonado por criar soluções digitais que fazem a diferença. Com anos de experiência no mercado, trabalho com as tecnologias mais modernas para entregar produtos de alta qualidade.",
-    "description2": "Minha abordagem combina código limpo, design intuitivo e boas práticas de desenvolvimento para criar aplicações que não apenas funcionam, mas encantam os usuários.",
-    "description3": "Acredito que tecnologia deve ser acessível, performática e escalável.",
+    "description1": "Sou um desenvolvedor full stack, e meu trabalho é solucionar problemas, preferencialmente usando a web mas entendo que diferente problemas podem requisitar diferentes soluções.",
+    "description2": "Prezo pelo código limpo, design intuitivo e boas práticas de desenvolvimento para criar aplicações que não apenas funcionam mas deixam o usuário satisfeito.",
+    "description3": "Assecibilidade, performance, praticidade e escalabilidade são pilares que guiam minhas decisões de desenvolvimento.",
     "values_title": "O que eu valorizo:",
     "values": {
       "clean_code": "Código limpo e bem documentado",
-      "performance": "Performance e otimização",
+      "performance": "Performance, otimização e padronização",
       "ux": "Experiência do usuário"
     },
     "stats": {
       "projects": "Projetos Concluídos",
       "experience": "Anos de Experiência",
-      "clients": "Clientes Satisfeitos",
-      "technologies": "Tecnologias Dominadas"
+      "courses": "Cursos Concluídos",
+      "technologies": "Ferramentas Utilizadas"
     }
   }
 }

@@ -1,28 +1,38 @@
 "use client";
-
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { LanguageButton } from "@/components/LanguageToggle";
 import ToggleLightDarkMode from "@/components/ToggleLightDarkMode";
-
 const Header = () => {
   const { t } = useTranslation();
   const [open, setOpen] = useState(false);
-
   const navItems = [
     "nav.home",
+    "nav.about_header",
     "nav.skills",
     "nav.projects",
     "nav.contact",
   ];
-
+  const sectionMap: { [key: string]: string } = {
+    "nav.home": "home",
+    "nav.about_header": "about",
+    "nav.skills": "skills",
+    "nav.projects": "projects",
+    "nav.contact": "contact"
+  };
+  const handleNavClick = (key: string) => {
+    const element = document.getElementById(sectionMap[key]);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setOpen(false);
+  };
   return (
     <header className="
-  fixed top-0 w-full z-50
-  backdrop-blur-sm
-  border-b border-[rgb(var(--foreground)/.1)]
-">
-
+      fixed top-0 w-full z-50
+      backdrop-blur-sm
+      border-b border-[rgb(var(--foreground)/.1)]
+    ">
       <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex items-center">
         {/* Title */}
         <div className="flex items-center">
@@ -31,13 +41,13 @@ const Header = () => {
           </h1>
           <ToggleLightDarkMode />
         </div>
-
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-4 ml-auto md:gap-6 lg:gap-10 xl:gap-14">
           <ul className="flex gap-2 lg:gap-4 text-base">
             {navItems.map((key) => (
               <li
                 key={key}
+                onClick={() => handleNavClick(key)}
                 className="
                   cursor-pointer px-3 py-2 rounded-xl transition
                   hover:bg-gray-200 dark:hover:bg-gray-800
@@ -49,11 +59,9 @@ const Header = () => {
           </ul>
           <LanguageButton />
         </div>
-
         {/* Mobile */}
         <div className="md:hidden flex items-center gap-2 ml-auto">
           <LanguageButton />
-
           <button
             onClick={() => setOpen((prev) => !prev)}
             className="

@@ -1,6 +1,7 @@
 'use client';
 
-import { FaBriefcase, FaChartLine, FaAward, FaGraduationCap } from "react-icons/fa";
+import { FaCodeBranch, FaChartLine, FaAward } from "react-icons/fa";
+import { GiTechnoHeart } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 import StatCard from "../StatCard";
 
@@ -8,7 +9,7 @@ const AboutMe = () => {
     const { t } = useTranslation();
 
     return (
-        <section className="py-40">
+        <section className="py-40 text-xl" id="about">
             <div className="mx-auto max-w-[90%] px-6 lg:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
                     {/* Text block */}
@@ -44,26 +45,26 @@ const AboutMe = () => {
                     {/* Stats block - To be updated*/}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         <StatCard
-                            icon={<FaBriefcase />}
-                            value="50+"
+                            icon={<FaCodeBranch />}
+                            value="70+"
                             label={t("about.stats.projects")}
                         />
 
                         <StatCard
                             icon={<FaChartLine />}
-                            value="5+"
+                            value="3.5+"
                             label={t("about.stats.experience")}
                         />
 
                         <StatCard
                             icon={<FaAward />}
-                            value="30+"
-                            label={t("about.stats.clients")}
+                            value="60+"
+                            label={t("about.stats.courses")}
                         />
 
                         <StatCard
-                            icon={<FaGraduationCap />}
-                            value="15+"
+                            icon={<GiTechnoHeart />}
+                            value="10+"
                             label={t("about.stats.technologies")}
                         />
                     </div>

@@ -1,6 +1,7 @@
 {
-  "nav": {
+  "nav": { 
     "home": "Home",
+    "about_header": "About",
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
@@ -11,20 +12,20 @@
   },
   "about": {
     "title": "About Me",
-    "description1": "I'm a full stack developer passionate about creating digital solutions that make a difference. With years of experience in the market, I work with the most modern technologies to deliver high-quality products.",
-    "description2": "My approach combines clean code, intuitive design, and good development practices to create applications that not only work but delight users.",
-    "description3": "I believe technology should be accessible, performant, and scalable.",
+    "description1": "I am a full stack developer, and my work is focused on solving problems, preferably using the web, while understanding that different challenges may require different solutions.",
+    "description2": "I value clean code, intuitive design, and best development practices to build applications that not only work, but also leave users satisfied.",
+    "description3": "Accessibility, performance, practicality, and scalability are the pillars that guide my development decisions.",
     "values_title": "What I value:",
     "values": {
       "clean_code": "Clean and well-documented code",
-      "performance": "Performance and optimization",
+      "performance": "Performance, optimization, and standardization",
       "ux": "User experience"
     },
     "stats": {
       "projects": "Completed Projects",
       "experience": "Years of Experience",
-      "clients": "Satisfied Clients",
-      "technologies": "Mastered Technologies"
+      "courses": "Completed Courses",
+      "technologies": "Tools Used"
     }
   }
 }

@@ -9,8 +9,8 @@ const Home = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="testBackground px-10 py-24 lg:px-20 flex flex-col gap-4 sm:gap-6">   
-        <h1
+        <div className="testBackground px-10 py-24 lg:px-20 flex flex-col gap-4 sm:gap-6" id="home">
+            <h1
                 className="
     inline-block
 
