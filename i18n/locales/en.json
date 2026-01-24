@@ -1,5 +1,5 @@
 {
-  "nav": { 
+  "nav": {
     "home": "Home",
     "about_header": "About",
     "skills": "Skills",
@@ -26,6 +26,34 @@
       "experience": "Years of Experience",
       "courses": "Completed Courses",
       "technologies": "Tools Used"
+    }
+  },
+  "skills": {
+    "title": "Skills & Experiences",
+    "subtitle": "Technologies and practices that I've used to deliver my solutions",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "React, Next.js, TypeScript, Tailwind CSS"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Node.js, Express.js, PostgreSQL, MongoDB"
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "Docker, Git, GitHub, Vercel, AWS, Google Cloud"
+    },
+    "design": {
+      "title": "UX/UI Design",
+      "description": "Figma, Responsive Design, Photoshop"
+    },
+    "security": {
+      "title": "Security",
+      "description": "Auth, JWT, Encryption, HTTPS"
+    },
+    "agile": {
+      "title": "Agile",
+      "description": "Scrum, Kanban, Design Sprint"
     }
   }
 }

@@ -27,5 +27,33 @@
       "courses": "Cursos Concluídos",
       "technologies": "Ferramentas Utilizadas"
     }
+  },
+  "skills": {
+    "title": "Habilidades & Experiências",
+    "subtitle": "Tecnologias e práticas que utilizei para entregar minhas soluções",
+    "frontend": {
+      "title": "Desenvolvimento Frontend",
+      "description": "React, Next.js, TypeScript, Tailwind CSS"
+    },
+    "backend": {
+      "title": "Desenvolvimento Backend",
+      "description": "Node.js, Express.js, PostgreSQL, MongoDB"
+    },
+    "devops": {
+      "title": "DevOps & Cloud",
+      "description": "Docker, Git, GitHub, Vercel, AWS, Google Cloud"
+    },
+    "design": {
+      "title": "Design UX/UI",
+      "description": "Figma, Design Responsivo, Photoshop"
+    },
+    "security": {
+      "title": "Segurança",
+      "description": "Autenticação, JWT, Criptografia, HTTPS"
+    },
+    "agile": {
+      "title": "Metodologias Ágeis",
+      "description": "Scrum, Kanban, Design Sprint"
+    }
   }
 }
