@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "title": "Social Network",
+      "description": "Social network project with account registration, login, posts, followers, JWT authentication, Feed and more.",
+      "altImg": "Social Network project example image"
+    },
+    {
+      "title": "Task Time Tracker",
+      "description": "Alura-tracker project, a website made to add tasks and count the time spent doing them.",
+      "altImg": "Alura-tracker project example image"
+    },
+    {
+      "title": "Recipe Search API using Vue",
+      "description": "Recipe search website project based on selected ingredients.",
+      "altImg": "Recipe search project example image"
+    },
+    {
+      "title": "Google Books API Search, RxJs",
+      "description": "Search website project focusing on RxJs reactivity, integrating with Google Books API.",
+      "altImg": "Google API search project example image"
+    },
+    {
+      "title": "Angular - Animations",
+      "description": "ToDo List website project to use Angular's animation module.",
+      "altImg": "Angular - Animations project example image"
+    },
+    {
+      "title": "Thought Wall",
+      "description": "Wall project to train Angular skills using a CRUD system.",
+      "altImg": "Wall project example image"
+    },
+    {
+      "title": "To Do List - Angular Life Cycle",
+      "description": "To Do List project to study OnDestroy and OnCheck methods. Analyzing Angular component life cycles.",
+      "altImg": "To Do List project example image"
+    },
+    {
+      "title": "Bookstore Form",
+      "description": "Project simulating a form and its validations, also integrating with API and handling request data.",
+      "altImg": "Bookstore project example image"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Project made to display all other projects I have already done",
+      "altImg": "Portfolio project example image"
+    },
+    {
+      "title": "ReactGran",
+      "description": "Instagram simulation project using React, NodeJS, MongoDB and Postman. You can create encrypted protected accounts.",
+      "altImg": "ReactGran project example image"
+    },
+    {
+      "title": "Miniblog",
+      "description": "Blog project made with React and Firebase, specializing in CRUD.",
+      "altImg": "Miniblog project example image"
+    },
+    {
+      "title": "Guess the Word",
+      "description": "Word guessing game project. Handling inputs and states in React.",
+      "altImg": "Guess the word project example image"
+    },
+    {
+      "title": "To Do List - React and Typescript",
+      "description": "Project made to practice React and Typescript with a CRUD",
+      "altImg": "To Do List with React and Typescript project example image"
+    },
+    {
+      "title": "To-Do List",
+      "description": "To Do List project with countdown, made to develop a CRUD algorithm using JS and exploring LocalStorage.",
+      "altImg": "To Do List project example image"
+    },
+    {
+      "title": "Using JEST, testing React",
+      "description": "Secret friend draw project, tested using JEST.",
+      "altImg": "Calculator project example image"
+    },
+    {
+      "title": "That's Cinema!",
+      "description": "Project made using React integrating with TMDB API for movie display and search, also showing details",
+      "altImg": "That's cinema project example image"
+    },
+    {
+      "title": "Freelancer Portfolio",
+      "description": "Website project for capturing potential clients, made to show possible services.",
+      "altImg": "Freelancer presentation project example image"
+    },
+    {
+      "title": "Parental Control",
+      "description": "Project to practice input, time and DOM manipulation. Where parents can have an idea if the child is diverting attention from studies.",
+      "altImg": "Parental control project example image"
+    },
+    {
+      "title": "Date Counter",
+      "description": "Project to practice date value manipulation",
+      "altImg": "Date counter project example image"
+    },
+    {
+      "title": "Robotron - DOM Manipulation",
+      "description": "Project to practice DOM manipulation, simulating the creation of an RPG game character",
+      "altImg": "Robotron, DOM manipulation project example image"
+    },
+    {
+      "title": "To Do List",
+      "description": "Project to practice CRUD, used for study and development of more complex future projects",
+      "altImg": "To Do List project example image"
+    },
+    {
+      "title": "Spa - Landing page",
+      "description": "Project to practice SASS usage, on an example page for a Spa.",
+      "altImg": "Spa landing project example image"
+    },
+    {
+      "title": "Apeperia - Visual Accessibility",
+      "description": "Project to practice accessibility for visually impaired people",
+      "altImg": "Apeperia landing page project example image"
+    },
+    {
+      "title": "Fruit and Fruit - Landing page",
+      "description": "Project to practice Bootstrap usage and all its functionalities",
+      "altImg": "Fruit and Fruit store landing page project example image"
+    },
+    {
+      "title": "Alurinha - Flex Box Study",
+      "description": "Project to practice layout in Flex Box mode",
+      "altImg": "Alurinha landing page project example image"
+    },
+    {
+      "title": "Barber Shop - First website",
+      "description": "My first project in my programming career",
+      "altImg": "Alurinha landing page project example image"
+    }
+  ]
+}

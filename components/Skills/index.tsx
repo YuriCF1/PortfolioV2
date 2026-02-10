@@ -16,8 +16,10 @@ const Skills = () => {
   const { t } = useTranslation();
   return (
     <section id="skills" className="mx-auto max-w-[80%] px-6 lg:px-12">
-      <h3 className="text-6xl font-mono text-[rgb(var(--foreground))] text-center mb-3" >{t("skills.title")}</h3>
-      <h5 className="text-2xl font-mono text-[rgb(var(--foreground-lighter))] text-center mb-20">{t("skills.subtitle")}</h5>
+      <h3 className="text-4xl sm:text-2xl md:text-6xl lg:text-5xl xl:text-6xl font-mono text-[rgb(var(--foreground))] text-center mb-3">
+        {t("skills.title")}
+      </h3>
+      <h5 className="text-2xl font-mono text-foreground-lighter text-center mb-20 dark:text-foreground-darker">{t("skills.subtitle")}</h5>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 gap-y-18">
         <SkillsCard iconColor="blue" icon={<FaCode />} title={t("skills.frontend.title")} description={t("skills.frontend.description")} />
         <SkillsCard iconColor="green" icon={<SiDatabricks />} title={t("skills.backend.title")} description={t("skills.backend.description")} />

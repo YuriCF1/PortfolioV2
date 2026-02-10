@@ -55,5 +55,13 @@
       "title": "Metodologias Ágeis",
       "description": "Scrum, Kanban, Design Sprint"
     }
+  },
+  "projects": {
+    "title": "Projetos em destaque",
+    "subtitle": "Alguns dos projetos que desenvolvi"
+  },
+  "projectCard": {
+    "code": "Código",
+    "demo": "Demo"
   }
 }

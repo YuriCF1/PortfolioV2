@@ -1,0 +1,708 @@
+{
+  "projects": [
+    {
+      "title": "Rede Social",
+      "description": "Projeto de uma rede social, com registro de conta, login, postagens, seguidores, autentificação usando JWT, Feed e mais.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Next_MySql/fee02d0ea99a66cdd4985ade710f48968bc367e2/client/social-media/public/example.png",
+      "altImg": "Imagem de exemplo de RedeSocial",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+          "tech_name": "tailwindcss"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+          "tech_name": "Next.js"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg",
+          "tech_name": "Axios"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+          "tech_name": "Node.js"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+          "tech_name": "Express"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
+          "tech_name": "MySQL"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+          "tech_name": "Postman"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg",
+          "tech_name": "Google Cloud"
+        },
+        {
+          "img": "https://icon.icepanel.io/AWS/svg/Compute/EC2.svg",
+          "tech_name": "AWS | EC2"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Next_MySql?tab=readme-ov-file",
+      "linkDeploy": "https://next-my-sql-sigma.vercel.app/login"
+    },
+    {
+      "title": "Verificando tempo de tarefas",
+      "description": "Projeto do Alura-tracker, site feito para adicionar tarefas e contar o tempo gasto realizando-as.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue-AluraTracker/1bf670a9a0eaed691564fb53f824049c76386174/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto Alura-tracker",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bulma/bulma-plain.svg",
+          "tech_name": "Bulma"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+          "tech_name": "Vue.js"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Vue-AluraTracker",
+      "linkDeploy": "https://proj-study-vue-alura-tracker.vercel.app/"
+    },
+    {
+      "title": "Pesquisando por API usando Vue",
+      "description": "Projeto de um site de pesquisa de receitas de acordo com ingredientes selecionados.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Vue/8e0583bd011b7a43c19888573f8f72fddab78ba6/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de pesquisa de receitas",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+          "tech_name": "Vue.js"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Vue",
+      "linkDeploy": "https://proj-study-vue.vercel.app/"
+    },
+    {
+      "title": "Pesquisa Google Books API, RxJs",
+      "description": "Projeto de um site de pesquisas, visando a reatividade RxJs, integrando a API do google books.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular-Reactive-Programing/b292142b50a7aa09b3bca26f77bfbc4fbcab5067/src/assets/imagens/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Pesquisa google API",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+          "tech_name": "Angular"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg",
+          "tech_name": "RxJS"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Reactive-Programing",
+      "linkDeploy": "https://proj-study-angular-reactive-programing.vercel.app/lista-livros"
+    },
+    {
+      "title": "Angular - Animações",
+      "description": "Projeto de um site ToDo List para utilizar o módulo de animações do Angular.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular-Animation/fc07ce6594ebfc0fc8070ce9cbe2805ba88603ea/src/assets/imagens/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Angular - Animações",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+          "tech_name": "Angular"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Animation",
+      "linkDeploy": "https://proj-study-angular-animation-nu.vercel.app/listaTarefas"
+    },
+    {
+      "title": "Mural de pensamentos",
+      "description": "Projeto de um mural, feito para treinar habilidades em Angular usando um sistema CRUD.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular/a0dde00a132168989c0bb934fee935f9580b29f2/memoteca/src/assets/imagens/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Mural",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+          "tech_name": "Angular"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular",
+      "linkDeploy": "https://proj-study-angular-yuricf1.vercel.app/list-thought"
+    },
+    {
+      "title": "To Do List - Angular Life Cycle",
+      "description": "Projeto de uma To Do List para estudar os métodos OnDestroy e OnCheck. Analisando os ciclos de vida dos componentes angular.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-ComponentLife/39b0a6a7f0cd6d94817a4f199e4e1b908bf7f58a/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de To Do List",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+          "tech_name": "Angular"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-ComponentLife?tab=readme-ov-file",
+      "linkDeploy": "https://proj-study-component-life.vercel.app/"
+    },
+    {
+      "title": "Formulário livraria",
+      "description": "Projeto simulando um formulário e suas validações, também fazendo integração com API e tratando o dados da requisição.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Angular-Form-Validation/0962addf627daf19ed5e3056f4b920215af095bf/forms-angular-main/src/assets/example.png",
+      "altImg": "Imagem de exemplo de Projeto de Livraria",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg",
+          "tech_name": "Angular"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Angular-Form-Validation",
+      "linkDeploy": "https://proj-study-angular-form-validation-yuricf1.vercel.app/cadastro"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Projeto realizado para exibir todos os outros projeto que já fiz",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Portfolio-Dev/9e9423119a9fb7f25037c6aa2bd684f70990afc2/public/assets/img/example.png",
+      "altImg": "Imagem de exemplo de Projeto Portfólio",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+          "tech_name": "Next.js"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Portfolio-Dev",
+      "linkDeploy": "https://portfolio-dev-kappa-liart.vercel.app/"
+    },
+    {
+      "title": "ReactGran",
+      "description": "Projeto simulando o Instagram, utilizando React, NodeJS, MongoDB e Postman. Nele, você pode criar contas protegidas com criptografia.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-12/main/Readme%20Example.png",
+      "altImg": "Imagem de exemplo de Projeto ReactGran",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg",
+          "tech_name": "Redux"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+          "tech_name": "Node.js"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+          "tech_name": "Express"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+          "tech_name": "MongoDB"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg",
+          "tech_name": "Postman"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-12",
+      "linkDeploy": "https://reactgram-frontend-yurifdev-x4zd.onrender.com/login"
+    },
+    {
+      "title": "Miniblog",
+      "description": "Projeto de um blog feito com React e Firebase, especializando em CRUD.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-10/main/miniblog/public/Example%20of%20the%20project.png",
+      "altImg": "Imagem de exemplo de Projeto Miniblog",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+          "tech_name": "Node.js"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg",
+          "tech_name": "Express"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
+          "tech_name": "Firebase"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-10/tree/main",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Study-React-10/"
+    },
+    {
+      "title": "Advinhe a palavra",
+      "description": "Projeto de jogo para advinhar palavra. Lidar com inputs e estados no React.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-6/main/secret-word/assets/Project%20presentation.png",
+      "altImg": "Imagem de exemplo de Projeto Advinha a palavra",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-6",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Study-React-6/"
+    },
+    {
+      "title": "To Do List - React e Typescript",
+      "description": "Projeto feito para praticar React e Typecript com um CRUD",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-15/6a6e29bd7bd8f839d6268a6c13ec22ad0d858447/public/Example.png",
+      "altImg": "Imagem de exemplo de Projeto To Do List com React e Typescript",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-15",
+      "linkDeploy": "https://proj-study-react-15-juigpewqq-yuricf1s-projects.vercel.app/"
+    },
+    {
+      "title": "To-Do List",
+      "description": "Projeto To Do List com contagem regressiva, feito para elaborar um algoritmo CRUD usando JS e explorar o LocalStorage.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/ToDoList/main/assets/img/example.png",
+      "altImg": "Imagem de exemplo de Projeto To Do List",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/ToDoList",
+      "linkDeploy": "https://yuricf1.github.io/ToDoList/"
+    },
+    {
+      "title": "Usando JEST, testando React",
+      "description": "Projeto de sorteio de amigo secreto, testado usando JEST.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Jest-Test/main/sorteador-amigo-secreto/example.png",
+      "altImg": "Imagem de exemplo de Projeto Calculadora",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+          "tech_name": "Jest"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Jest-Test",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Study-Jest-Test/"
+    },
+    {
+      "title": "Isso é cinema!",
+      "description": "Projeto feito utilizando React integrando com API de TMDB para exibição e busca de filmes, mostrando também detalhes",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-React-16/a22166162c5a4334b8a7ccc5095ccf1f42fbb463/public/example.png",
+      "altImg": "Imagem de exemplo de Projeto Isso é cinema",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+          "tech_name": "TypeScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          "tech_name": "React"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-React-16",
+      "linkDeploy": "https://cinema-5gi33dyao-yuricf1s-projects.vercel.app/"
+    },
+    {
+      "title": "Portfolio Freelancer",
+      "description": "Projeto de um site para captação de possíveis clientes, feito para mostrar possíveis serviços.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/portfolio/main/assets/Portfolio.png",
+      "altImg": "Imagem de exemplo de Projeto apresentação freelancer",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+          "tech_name": "PHP"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/portfolio",
+      "linkDeploy": "https://yuricf1.github.io/portfolio/"
+    },
+    {
+      "title": "Controle dos pais",
+      "description": "Projeto feito para praticar manipulação de input, tempo e DOM. Onde os pais podem ter noção se a criança está desviando atenção de estudos.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Constrole_dos_pais/main/assets/img/Exemplo.png",
+      "altImg": "Imagem de exemplo de Projeto Controle dos pais",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+          "tech_name": "Photoshop"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Constrole_dos_pais",
+      "linkDeploy": "https://yuricf1.github.io/Constrole_dos_pais/"
+    },
+    {
+      "title": "Contador de data",
+      "description": "Projeto para prarticar de manipulação de valores de data",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Contador_Data/main/assets/img/Thumb.png",
+      "altImg": "Imagem de exemplo de Projeto contador de datas.",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Contador_Data",
+      "linkDeploy": "https://yuricf1.github.io/Contador_Data/"
+    },
+    {
+      "title": "Robotron - Manipulação de DOM",
+      "description": "Projeto para prarticar de manipulação do DOM, simulando a criação de um personagem de um jogo de RPG",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Estudo---DOM-Manipulation/main/img/Robotron2000.png",
+      "altImg": "Imagem de exemplo de Projeto Roboton, manipalação de DOM",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Estudo---DOM-Manipulation",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Estudo---DOM-Manipulation/"
+    },
+    {
+      "title": "To Do List",
+      "description": "Projeto para prarticar CRUD, usado para estudo e elaboração de projetos futuros mais complexos",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Estudo---To-Do-LIst-/main/example.png",
+      "altImg": "Imagem de exemplo de Projeto To Do List",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+          "tech_name": "JavaScript"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Estudo---To-Do-LIst-",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Estudo---To-Do-LIst-/"
+    },
+    {
+      "title": "Spa - Landing page",
+      "description": "Projeto para pratica o uso do SASS, em uma página exemplo para um Spa.",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study-Sass-01/main/imagens/Cover.png",
+      "altImg": "Imagem de exemplo de Projeto landing Spa",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+          "tech_name": "Sass"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study-Sass-01",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Study-Sass-01/"
+    },
+    {
+      "title": "Apeperia - Acessbilidade Visual",
+      "description": "Projeto para prarticar a acesbiildiade para deficientes visuais",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Study---Accessibility-blind/main/example.png",
+      "altImg": "Imagem de exemplo de Projeto landing page. Apeperia",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Study---Accessibility-blind",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Study---Accessibility-blind/"
+    },
+    {
+      "title": "Fruta e Fruto - Landing page",
+      "description": "Projeto para prarticar do uso de Bootstrap e todas suas funcoinalidades",
+      "img": "https://raw.githubusercontent.com/YuriCF1/Proj.Estudo--Botstrap4/main/example.png",
+      "altImg": "Imagem de exemplo de Projeto landing page. Loja Fruta e fruto",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          "tech_name": "Bootstrap"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/Proj.Estudo--Botstrap4",
+      "linkDeploy": "https://yuricf1.github.io/Proj.Estudo--Botstrap4/"
+    },
+    {
+      "title": "Alurinha - Estudo Flex Box",
+      "description": "Projeto para prarticar o layout no modo Flex Box",
+      "img": "https://raw.githubusercontent.com/YuriCF1/estudoFlexBox/main/example.png",
+      "altImg": "Imagem de exemplo de Projeto landing page. Alurinha",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/estudoFlexBox",
+      "linkDeploy": "https://yuricf1.github.io/estudoFlexBox/"
+    },
+    {
+      "title": "Barber Shop - Primeiro site",
+      "description": "Meu primeiro projeto na carreira de programador",
+      "img": "https://raw.githubusercontent.com/YuriCF1/primeiro_site/main/example.png",
+      "altImg": "Imagem de exemplo de Projeto landing page. Alurinha",
+      "techs": [
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+          "tech_name": "HTML5"
+        },
+        {
+          "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+          "tech_name": "CSS3"
+        }
+      ],
+      "linkGH": "https://github.com/YuriCF1/primeiro_site",
+      "linkDeploy": "https://yuricf1.github.io/primeiro_site/"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "courses": [
+    {
+      "title": "Next.js: Conheça o framework React",
+      "eng_title": "Next.js: Learn about the React framework"
+    },
+    {
+      "title": "Nodejs: Autenticação, Passport e OAuth 2.0",
+      "eng_title": "Nodejs: Authentication, Passport and OAuth 2.0"
+    },
+    {
+      "title": "Docker: criando e gerenciando containers",
+      "eng_title": "Docker: creating and managing containers"
+    },
+    {
+      "title": "Gemini e Node.js: integrando sua aplicação com a API do Google",
+      "eng_title": "Gemini and Node.js: integrating your application with the Google API"
+    },
+    {
+      "title": "Node.js: criando uma API Rest com Express e MongoDB",
+      "eng_title": "Node.js: creating a Rest API with Express and MongoDB"
+    },
+    {
+      "title": "JavaScript com Node.js: criando sua primeira biblioteca",
+      "eng_title": "JavaScript with Node.js: Creating your first library"
+    },
+    {
+      "title": "MySQL: Do básico ao avançado - Desenvolvelvendo banco de dados",
+      "eng_title": "MySQL: From basic to advanced  - Developing a Database"
+    },
+    {
+      "title": "Vue3: Avançando com o framework",
+      "eng_title": "Vue3: Advancing in the framework"
+    },
+    {
+      "title": "PHP: Conceitos, lidando com dados, loops e mais",
+      "eng_title": "PHP: Concepts, dealing with data, loops and more"
+    },
+    {
+      "title": "Vue3: explorando o framework",
+      "eng_title": "Vue3: exploring the framework"
+    },
+    {
+      "title": "Vue 3: entendendo componentes, diretivas e reatividade no framework",
+      "eng_title": "Vue 3: understanding components, directives and reactivity in the framework"
+    },
+    {
+      "title": "Angular: aprimore suas técnicas de animação e crie interfaces ainda mais atraentes",
+      "eng_title": "Angular: improve your animation techniques and create even more attractive interfaces"
+    },
+    {
+      "title": "Angular: torne sua aplicação interativa e personalizada com animações",
+      "eng_title": "Angular: make your application interactive and personalized with animations"
+    },
+    {
+      "title": "RxJS e Angular: programando de forma reativa",
+      "eng_title": "RxJS and Angular: programming reactively"
+    },
+    {
+      "title": "Angular: ciclo de vida",
+      "eng_title": "Angular: Life's Cycle"
+    },
+    {
+      "title": "React: criando um Design System com TailwindCSS",
+      "eng_title": "React: creating a Design System with TailwindCSS"
+    },
+    {
+      "title": "Angular: formulários orientados a templates",
+      "eng_title": "Angular: template-driven forms"
+    },
+    {
+      "title": "Angular 14: evoluindo a aplicação",
+      "eng_title": "Angular 14: evolving the application"
+    },
+    {
+      "title": "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD",
+      "eng_title": "Angular 14: apply concepts and develop your first CRUD"
+    },
+    {
+      "title": "Next.js: explorando o framework",
+      "eng_title": "Next.js: exploring the framework"
+    },
+    { "title": "PostgreSQL", "eng_title": "PostgreSQL" },
+    {
+      "title": "React: testando os seus componentes",
+      "eng_title": "React: testing your components"
+    },
+    {
+      "title": "React Native: criando um app",
+      "eng_title": "React Native: creating a mobile app"
+    },
+    {
+      "title": "JavaScript: programação orientada a objetos",
+      "eng_title": "JavaScript: object-oriented programming"
+    },
+    { "title": "JavaScript: objetos", "eng_title": "JavaScript: objects" },
+    {
+      "title": "SASS e CSS: estilizando um site",
+      "eng_title": "SASS and CSS: styling a website"
+    },
+    {
+      "title": "jQuery: avance na biblioteca mais popular do mercado parte 2",
+      "eng_title": "jQuery: advancing in the market's most popular library part 2"
+    },
+    {
+      "title": "UX: entenda a experiência de usuário",
+      "eng_title": "UX: understanding user experience"
+    },
+    {
+      "title": "jQuery: domine a biblioteca mais popular do mercado parte 1",
+      "eng_title": "jQuery: mastering the market's most popular library part 1"
+    },
+    {
+      "title": "JavaScript: consumindo e tratando dados de uma API",
+      "eng_title": "JavaScript: consuming and handling data from an API"
+    },
+    {
+      "title": "React: escrevendo com Typescript",
+      "eng_title": "React: writing with Typescript"
+    },
+    {
+      "title": "Javascript: conhecendo o Browser e padrões de projeto",
+      "eng_title": "JavaScript: understanding the Browser and design patterns"
+    },
+    {
+      "title": "JavaScript: programando na linguagem da web",
+      "eng_title": "JavaScript: programing on WEB's language"
+    },
+    {
+      "title": "HTTP: entendendo a web por baixo dos panos",
+      "eng_title": "HTTP: understanding the web behind the scenes"
+    },
+    {
+      "title": "Blender: criando um modelo 3D",
+      "eng_title": "Blender: creating a 3D model"
+    },
+    {
+      "title": "Bootstrap 4: criando uma landing page responsiva",
+      "eng_title": "Bootstrap 4: creating a responsive landing page"
+    },
+    {
+      "title": "WordPress: crie sites com Elementor e Figma",
+      "eng_title": "WordPress: creating sites with Elementor and Figma"
+    },
+    {
+      "title": "Typescript parte 3: mais técnicas e boas práticas",
+      "eng_title": "Typescript part 3: more techniques and best practices"
+    },
+    {
+      "title": "Produção de vídeo: conceitos essenciais de uma produção audiovisual",
+      "eng_title": "Video production: essential concepts of audiovisual production"
+    },
+    {
+      "title": "Produção de vídeo: o que há por trás do mundo do audiovisual",
+      "eng_title": "Video production: what lies behind the world of audiovisual"
+    },
+    {
+      "title": "TypeScript parte 2: avançando na linguagem",
+      "eng_title": "TypeScript part 2: advancing in the language"
+    },
+    {
+      "title": "TypeScript parte 1: evoluindo seu JavaScript",
+      "eng_title": "TypeScript part 1: evolving your JavaScript"
+    },
+    {
+      "title": "Photoshop: composição de uma peça publicitária",
+      "eng_title": "Photoshop: composing an advertising piece"
+    },
+    {
+      "title": "Acessibilidade web parte 1: tornando seu front-end inclusivo",
+      "eng_title": "Web accessibility part 1: making your front-end inclusive"
+    },
+    {
+      "title": "JavaScript: manipulando elementos no DOM",
+      "eng_title": "JavaScript: manipulating elements in the DOM"
+    },
+    {
+      "title": "Acessibilidade web: crie designs inclusivos",
+      "eng_title": "Web accessibility: create inclusive designs"
+    },
+    {
+      "title": "Git e GitHub: compartilhando e colaborando em projetos",
+      "eng_title": "Git and GitHub: sharing and collaborating on projects"
+    },
+    {
+      "title": "Adobe Photoshop: conceitos essenciais",
+      "eng_title": "Adobe Photoshop: essential concepts"
+    },
+    {
+      "title": "JavaScript: Validação de formulários e HTML 5",
+      "eng_title": "JavaScript: validating forms and HTML 5"
+    },
+    {
+      "title": "Expressões Regulares: faça buscas, validações e substituições de textos",
+      "eng_title": "Regular Expressions: searching, validating, and replacing texts"
+    },
+    {
+      "title": "Javascript para Web: Crie páginas dinâmicas",
+      "eng_title": "Javascript to Web: Create dynamic pages"
+    },
+    {
+      "title": "CSS Grid: construindo layouts com Grid",
+      "eng_title": "Grid CSS: building layouts with Grid"
+    },
+    {
+      "title": "Layouts Responsivos: Trabalhando com layouts mobile",
+      "eng_title": "Responsive Layouts: Working with mobile layouts"
+    },
+    {
+      "title": "Flexbox: posicione elementos na tela",
+      "eng_title": "Flexbox: positioning elements on the screen"
+    },
+    {
+      "title": "SEO: otimização de sites",
+      "eng_title": "SEO: website optimization"
+    },
+    {
+      "title": "Arquitetura CSS: descomplicando os problemas",
+      "eng_title": "CSS Architecture: simplifying problems"
+    },
+    {
+      "title": "JavaScript: interfaces e Herança em Orientação a Objetos",
+      "eng_title": "JavaScript: interfaces and inheritance in Object-Oriented Programming"
+    },
+    {
+      "title": "JavaScript: programando a Orientação a Objetos",
+      "eng_title": "JavaScript: Object-Oriented Programming"
+    },
+    {
+      "title": "JavaScript: explorando a linguagem",
+      "eng_title": "JavaScript: exploring the language"
+    },
+    {
+      "title": "HTML5 e CSS3 parte 4: avançando no CSS",
+      "eng_title": "HTML5 and CSS3 part 4: advancing in CSS"
+    },
+    {
+      "title": "HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas",
+      "eng_title": "HTML5 and CSS3 part 3: dealing with forms and tables"
+    },
+    {
+      "title": "Arquitetura de computadores: por trás de como seu computador funciona",
+      "eng_title": "Computer Architecture: how your computer works"
+    },
+    {
+      "title": "HTML5 e CSS3 parte 2: posicionamento, listas e navegação",
+      "eng_title": "HTML5 and CSS3 part 2: positioning, lists, and navigation"
+    },
+    {
+      "title": "HTML5 e CSS3 parte 1: crie uma página da web",
+      "eng_title": "HTML5 and CSS3 part 1: create a web page"
+    },
+    {
+      "title": "Lógica de programação: laços e listas com javascript",
+      "eng_title": "Programming logic: loops and lists with JavaScript"
+    },
+    {
+      "title": "Lógica de programação: comece em lógica com o jogo Pong e JavaScript",
+      "eng_title": "Programming logic: start with logic using the Pong game and JavaScript"
+    },
+    {
+      "title": "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo",
+      "eng_title": "JavaScript and HTML: practicing logic with drawings, animations, and a game"
+    },
+    {
+      "title": "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
+      "eng_title": "JavaScript and HTML: developing a game and practicing programming logic"
+    }
+  ]
+}

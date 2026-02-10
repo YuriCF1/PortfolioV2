@@ -55,5 +55,13 @@
       "title": "Agile",
       "description": "Scrum, Kanban, Design Sprint"
     }
+  },
+ "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Some of the projects I've built"
+  },
+  "projectCard": {
+    "code": "Code",
+    "demo": "Demo"
   }
 }

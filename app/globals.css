@@ -5,7 +5,13 @@
   /* --background: 253, 250, 246; */
   --background: 253, 250, 246;
   --foreground: 0 0 0;
-  --foreground-lighter: #686868;
+   --foreground-lighter: #888888a9;
+   --foreground-darker: #ffffffc2;
+}
+
+@theme {
+  --color-foreground-lighter: #888888a9;
+  --color-foreground-darker: #888888a9;
 }
 
 /* Dark via class */
