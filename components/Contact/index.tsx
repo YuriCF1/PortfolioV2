@@ -13,6 +13,8 @@ const Contact = () => {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [statusMessage, setStatusMessage] = useState('');
+  const [statusType, setStatusType] = useState<'success' | 'error' | ''>('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -24,10 +26,10 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setStatusMessage('');
     
     try {
-      //Starting method to send email. Take a look at RESEND
-      const response = await fetch('/api/send-email', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -35,14 +37,19 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        alert(t("contact.success_message"));
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        setStatusMessage(t("contact.success_message"));
+        setStatusType('success');
         setFormData({ name: "", email: "", phone: "", message: "" });
       } else {
-        alert(t("contact.error_message"));
+        setStatusMessage(result.error || t("contact.error_message"));
+        setStatusType('error');
       }
     } catch (error) {
-      alert(t("contact.error_message"));
+      setStatusMessage(t("contact.error_message"));
+      setStatusType('error');
     } finally {
       setIsSubmitting(false);
     }
@@ -115,6 +122,17 @@ const Contact = () => {
 
           {/* Right Column - Form */}
           <div className="bg-gray-700 rounded-2xl p-8 border border-gray-800">
+            {/* Status Message */}
+            {statusMessage && (
+              <div className={`mb-6 p-4 rounded-lg text-center ${
+                statusType === 'success' 
+                  ? 'bg-green-600 text-white' 
+                  : 'bg-red-600 text-white'
+              }`}>
+                {statusMessage}
+              </div>
+            )}
+            
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Nome Completo */}
               <div>
