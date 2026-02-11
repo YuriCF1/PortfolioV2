@@ -4,6 +4,8 @@ import AboutMe from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import styles from "./page.module.css";
 
 export default function HomePage() {
   return (
@@ -13,8 +15,11 @@ export default function HomePage() {
         <Home />
         <AboutMe />
         <Skills />
-        <Projects/>
-        <Contact />
+        <Projects />
+        <div className={styles.contactGradient}>
+          <Contact />
+          <Footer />
+        </div>
       </main>
     </>
   );

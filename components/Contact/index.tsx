@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FaEnvelope, FaWhatsapp, FaPaperPlane } from "react-icons/fa";
-import styles from "./contact.module.css";
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -56,11 +55,11 @@ const Contact = () => {
   };
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/+0000000000', '_blank');
+    window.open('https://wa.me/+5582988439390', '_blank');
   };
 
   return (
-    <section id="contact" className={`${styles.contactGradient} py-20 px-4`}>
+    <section id="contact" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Title */}
         <div className="text-center mb-16">
@@ -134,7 +133,7 @@ const Contact = () => {
             )}
             
             <form onSubmit={handleSubmit} className="space-y-6">
-              {/* Nome Completo */}
+              {/* Full Name */}
               <div>
                 <label htmlFor="name" className="block text-white font-medium mb-2">
                   {t("contact.name")}
@@ -168,7 +167,7 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Telefone */}
+              {/* Phone Number */}
               <div>
                 <label htmlFor="phone" className="block text-white font-medium mb-2">
                   {t("contact.phone")}
@@ -184,7 +183,7 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Mensagem */}
+              {/* Message */}
               <div>
                 <label htmlFor="message" className="block text-white font-medium mb-2">
                   {t("contact.message")}
@@ -201,7 +200,7 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Botão Enviar */}
+              {/* Send Button */}
               <button
                 type="submit"
                 disabled={isSubmitting}

@@ -84,5 +84,17 @@
     "sending": "Enviando...",
     "success_message": "Mensagem enviada com sucesso!",
     "error_message": "Erro ao enviar mensagem. Tente novamente."
+  },
+  "footer": {
+    "portfolio": "Portfólio",
+    "description": "Desenvolvedor Full Stack dedicado a criar experiências web excepcionais com código limpo e design intuitivo.",
+    "quick_links": "Links Rápidos",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "connect": "Conecte-se",
+    "copyright": "© 2026 Portfolio. Todos os direitos reservados.",
+    "made_with": "Feito com ❤️ e Next.js"
   }
 }

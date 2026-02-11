@@ -84,5 +84,17 @@
     "sending": "Sending...",
     "success_message": "Message sent successfully!",
     "error_message": "Error sending message. Please try again."
+  },
+  "footer": {
+    "portfolio": "Portfolio",
+    "description": "Full Stack Developer dedicated to creating exceptional web experiences with clean code and intuitive design.",
+    "quick_links": "Quick Links",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "connect": "Connect",
+    "copyright": "© 2026 Portfolio. All rights reserved.",
+    "made_with": "Made with ❤️ and Next.js"
   }
 }

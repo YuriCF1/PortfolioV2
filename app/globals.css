@@ -66,23 +66,3 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
-
-/* Contact section gradient - light theme */
-.contact-gradient-light {
-  background: linear-gradient(135deg,
-      rgba(139, 92, 246, 0.25) 0%,
-      rgba(182, 241, 209, 0.35) 25%,
-      rgba(206, 230, 231, 0.3) 50%,
-      rgba(182, 241, 209, 0.35) 75%,
-      rgba(139, 92, 246, 0.25) 100%);
-}
-
-/* Contact section gradient - dark theme */
-.contact-gradient-dark {
-  background: linear-gradient(135deg,
-      rgba(91, 87, 115, 0.12) 0%,
-      rgba(31, 41, 55, 0.18) 25%,
-      rgba(30, 41, 59, 0.15) 50%,
-      rgba(55, 65, 81, 0.18) 75%,
-      rgba(91, 87, 115, 0.12) 100%);
-}

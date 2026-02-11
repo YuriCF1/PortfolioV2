@@ -7,6 +7,11 @@ import { ThemeProvider } from "@/context/ThemeContext";
 export const metadata: Metadata = {
   title: "Yuri Cruz - Portfolio",
   description: "Full Stack Developer Portfolio",
+  icons: {
+    icon: '/images/favicon.png',
+    shortcut: '/images/favicon.png',
+    apple: '/images/favicon.png',
+  },
 };
 
 const jost = Jost({
