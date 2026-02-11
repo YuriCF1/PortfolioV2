@@ -53,6 +53,10 @@
         {
           "img": "https://icon.icepanel.io/AWS/svg/Compute/EC2.svg",
           "tech_name": "AWS | EC2"
+        },
+        {
+          "img": "https://icon.icepanel.io/AWS/svg/Database/RDS.svg",
+          "tech_name": "AWS | RDS"
         }
       ],
       "linkGH": "https://github.com/YuriCF1/Next_MySql?tab=readme-ov-file",

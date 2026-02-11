@@ -63,5 +63,26 @@
   "projectCard": {
     "code": "Código",
     "demo": "Demo"
+  },
+  "contact": {
+    "title": "Vamos trabalhar juntos?",
+    "subtitle": "Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "whatsapp_text": "Prefere conversar por WhatsApp? Clique no botão abaixo",
+    "open_whatsapp": "Abrir WhatsApp",
+    "quick_reply": "Resposta Rápida",
+    "quick_reply_text": "Costumo responder em até 24 horas. Para urgências, use o WhatsApp.",
+    "name": "Nome Completo",
+    "name_placeholder": "João Silva",
+    "email_placeholder": "joao@email.com",
+    "phone": "Telefone",
+    "phone_placeholder": "(11) 99999-9999",
+    "message": "Mensagem",
+    "message_placeholder": "Conte-me sobre como eu posso colaborar com seu projeto...",
+    "send_message": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "success_message": "Mensagem enviada com sucesso!",
+    "error_message": "Erro ao enviar mensagem. Tente novamente."
   }
 }

@@ -1,0 +1,15 @@
+/* Contact section gradient - base */
+.contactGradient {
+  background: linear-gradient(180deg,
+      #f1f7f8 0%,
+      #adbdd3 50%,
+      #96bec5 100%);
+}
+
+/* Dark theme override */
+:global(.dark) .contactGradient {
+  background: linear-gradient(180deg,
+      #1c2534 0%,
+      #0f172a 50%,
+      #000e27 100%);
+}

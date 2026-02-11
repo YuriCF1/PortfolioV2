@@ -20,18 +20,19 @@ export default function ToggleLightDarkMode() {
     <button
       onClick={toggleTheme}
       className="
-    mt-1
-    sm:mt-1
-    md:mt-1
-    lg:mt-1
-    xl:mt-1
+    ml-px
+    mt-[-3px]
+    sm:mt-[-3px]
+    md:mt-[-3px]
+    lg:mt-[-3px]
+    xl:mt-[-3px]
     w-5 h-5 sm:w-2 sm:h-2 md:w-8 md:h-8 lg:w-8 lg:h-8 xl:w-8 xl:h-8
     flex items-center justify-center
     rounded-full
     border-4
     cursor-pointer
-    border-gray-500 dark:border-gray-600
-    hover:bg-gray-500 dark:hover:bg-gray-600
+    border-gray-800 dark:border-gray-200
+    hover:bg-gray-800 dark:hover:bg-gray-200
     hover:scale-110
     transition-all
     duration-300

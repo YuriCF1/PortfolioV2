@@ -63,5 +63,26 @@
   "projectCard": {
     "code": "Code",
     "demo": "Demo"
+  },
+  "contact": {
+    "title": "Let's work together",
+    "subtitle": "I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "whatsapp_text": "Prefer to chat via WhatsApp? Click the button below",
+    "open_whatsapp": "Open WhatsApp",
+    "quick_reply": "Quick Reply",
+    "quick_reply_text": "I usually reply within 24 hours. For urgent matters, use WhatsApp.",
+    "name": "Full Name",
+    "name_placeholder": "John Doe",
+    "email_placeholder": "johndoe@email.com",
+    "phone": "Phone",
+    "phone_placeholder": "+1 555-123-4567",
+    "message": "Message",
+    "message_placeholder": "Tell me how I can collaborate with you...",
+    "send_message": "Send Message",
+    "sending": "Sending...",
+    "success_message": "Message sent successfully!",
+    "error_message": "Error sending message. Please try again."
   }
 }

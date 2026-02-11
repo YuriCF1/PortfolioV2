@@ -21,7 +21,7 @@ const SkillsCard = ({
   };
 
   return (
-    <div className="border border-gray-400 hover:border-gray-300 rounded-xl px-7 py-8">      {icon && (
+    <div className="border border-gray-400 dark:border-gray-700 hover:border-gray-300 rounded-xl px-7 py-8">      {icon && (
       <span className={`${colorClasses[iconColor]} text-5xl flex items-center justify-center w-16 h-16 mb-4 p-3 rounded-xl`}>
         {icon}
       </span>

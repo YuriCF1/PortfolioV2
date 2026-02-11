@@ -77,7 +77,7 @@ const ProjectCard = ({
                         href={linkDeploy}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-4 py-2 rounded-lg text-center hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors duration-200 flex items-center justify-center gap-2"
+                        className="flex-1 bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-4 py-2 rounded-lg text-center hover:bg-gray-800 dark:hover:bg-gray-300 transition-colors duration-200 flex items-center justify-center gap-2"
                     >
                         <FaExternalLinkAlt />
                         {t("projectCard.demo")}

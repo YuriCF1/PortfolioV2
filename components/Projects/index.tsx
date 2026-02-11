@@ -9,8 +9,8 @@ const Projects = () => {
     const { i18n } = useTranslation();
 
     // Select projects based on current language
-    const projects: ProjectCardProps[] = i18n.language === 'en' 
-        ? projectsDataEn.projects 
+    const projects: ProjectCardProps[] = i18n.language === 'en'
+        ? projectsDataEn.projects
         : projectsDataPt.projects;
 
     return (

@@ -23,7 +23,7 @@ const Header = () => {
   const handleNavClick = (key: string) => {
     const element = document.getElementById(sectionMap[key]);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
     }
     setOpen(false);
   };
