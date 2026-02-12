@@ -144,6 +144,7 @@ const Courses = () => {
                              flex items-center justify-center
                              transition-all duration-300
                              hover:scale-110
+                             cursor-pointer
                             "
                     >
                         <SlArrowDown
