@@ -29,7 +29,7 @@ const Header = () => {
   };
   return (
     <header className="
-      fixed top-0 w-full z-50
+      fixed top-0 w-full z-51
       backdrop-blur-sm
       border-b border-[rgb(var(--foreground)/.1)]
     ">

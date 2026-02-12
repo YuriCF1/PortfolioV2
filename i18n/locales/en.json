@@ -96,5 +96,10 @@
     "connect": "Connect",
     "copyright": "© 2026 Portfolio. All rights reserved.",
     "made_with": "Made with ❤️ and Next.js"
+  },
+  "courses": {
+    "loading_courses": "Loading Courses",
+    "title": "Courses",
+    "subtitle": "Some of the courses I've taken"
   }
 }

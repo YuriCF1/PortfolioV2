@@ -6,12 +6,14 @@
 - [x] Soft color in the skill subtitle
 - [X] Skills
 - [X] Projects
-- [ ] Contact
-- [ ] Arrow to the top
+- [X] Contact
+- [X] Footer
+- [ ] Courses Area
+- [ ] Google Ad - Localization
 - [ ] Custom Scroll Bar
+- [ ] Arrow to the top
 - [ ] Top scroll bar progress
 - [ ] Carousel on projects?
-- [ ] Courses Area
 - [ ] Soft skills?
 - [ ] What managers talk about me
 - [ ] Add smooth language change
